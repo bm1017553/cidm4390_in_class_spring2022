@@ -1,4 +1,4 @@
-namespace domain;
+namespace domain.SpeakerAggregate;
 
 public class Speaker
 {
