@@ -29,13 +29,4 @@ public class MySpeakerHelper : ISpeakerHelper
     {
         return string.Empty;
     }
-
-    public Speaker CreateSpeaker(string fname, string lname, string email)
-    {
-        Speaker speaker = new Speaker()
-        {
-            FirstName = ValidateFirstName(fname),
-            LastName = ValidateLastName(lname)
-        };
-    }
 }
